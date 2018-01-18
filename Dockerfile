@@ -25,7 +25,7 @@ RUN adduser --disabled-password --gecos "" --quiet dev \
 WORKDIR /root
 
 # 设置开放端口
-EXPOSE 80 443 22 10000 10001 10002 10003
+EXPOSE 22
 
 # 设置挂载点
 VOLUME [ \
