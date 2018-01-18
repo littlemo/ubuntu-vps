@@ -14,7 +14,8 @@ RUN apt-get update --fix-missing && apt-get install -y \
 
 # 配置SSHD
 RUN mkdir /var/run/sshd \
-    && sed -ri 's/#?PasswordAuthentication yes/PasswordAuthentication no/g' /etc/ssh/sshd_config
+    && sed -ri 's/#?PasswordAuthentication yes/PasswordAuthentication no/g' \
+        /etc/ssh/sshd_config
 
 # 创建非Root用户
 RUN adduser --disabled-password --gecos "" --quiet dev \
