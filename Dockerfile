@@ -27,17 +27,6 @@ WORKDIR /root
 # 设置开放端口
 EXPOSE 22
 
-# 设置挂载点
-VOLUME [ \
-    "/home/", \
-    "/mnt/", \
-    "/etc/", \
-    "/var/", \
-    "/opt/", \
-    "/root", \
-    "/usr" \
-]
-
 # 启动命令
 CMD [ \
     "/usr/sbin/sshd", "-D" \
