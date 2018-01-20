@@ -22,6 +22,11 @@ RUN adduser --disabled-password --gecos "" --quiet dev \
     && echo 'dev:dev' | chpasswd \
     && usermod -a -G adm,sudo dev
 
+# 配置sudo用户组无需输入密码，并设置默认ROOT密码
+RUN sed -ri 's/%sudo\tALL=\(ALL:ALL\) ALL/%sudo\tALL=\(ALL:ALL\) NOPASSWD: ALL/g' \
+        /etc/sudoers \
+    && echo 'root:whosyourdaddy' | chpasswd
+
 # 设置工作路径
 WORKDIR /root
 
