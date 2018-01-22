@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-MAINTAINER Moore Huang<moore@moorehy.com>
+MAINTAINER Moore Huang <moore@moorehy.com>
 
 # 替换为中科大软件源
 RUN sed -i 's|archive.ubuntu.com|mirrors.ustc.edu.cn|g' /etc/apt/sources.list && \
