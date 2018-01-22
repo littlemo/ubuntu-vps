@@ -8,7 +8,7 @@ RUN sed -i 's|archive.ubuntu.com|mirrors.ustc.edu.cn|g' /etc/apt/sources.list &&
 
 # 安装软件&扩展
 RUN apt-get update --fix-missing && apt-get install -y \
-        openssl openssh-server landscape-common sudo \
+        openssh-server landscape-common sudo \
         --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
