@@ -14,7 +14,7 @@ RUN apt-get update --fix-missing && apt-get install -y \
 
 # 配置SSHD
 RUN mkdir /var/run/sshd \
-    && sed -ri 's/#?PasswordAuthentication yes/PasswordAuthentication no/g' \
+    && sed -ri 's|#?PasswordAuthentication yes|PasswordAuthentication no|g' \
         /etc/ssh/sshd_config
 
 # 配置用户
@@ -23,7 +23,7 @@ RUN echo 'root:whosyourdaddy' | chpasswd \
     && echo 'dev:dev' | chpasswd
 
 # 配置用户组，以及sudo组无需输入密码
-RUN sed -ri 's/%sudo\tALL=\(ALL:ALL\) ALL/%sudo\tALL=\(ALL:ALL\) NOPASSWD: ALL/g' \
+RUN sed -ri 's|%sudo\tALL=\(ALL:ALL\) ALL|%sudo\tALL=\(ALL:ALL\) NOPASSWD: ALL|g' \
         /etc/sudoers \
     && usermod -aG adm,sudo dev
 
