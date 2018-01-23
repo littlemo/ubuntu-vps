@@ -15,6 +15,8 @@
 [![Docker Build Status](https://img.shields.io/docker/build/littlemo/ubuntu-vps.svg)](https://hub.docker.com/r/littlemo/ubuntu-vps/)
 [![Docker Stars](https://img.shields.io/docker/stars/littlemo/ubuntu-vps.svg)](https://hub.docker.com/r/littlemo/ubuntu-vps/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/littlemo/ubuntu-vps.svg)](https://hub.docker.com/r/littlemo/ubuntu-vps/)
+[![](https://images.microbadger.com/badges/image/littlemo/ubuntu-vps.svg)](https://microbadger.com/images/littlemo/ubuntu-vps)
+[![](https://images.microbadger.com/badges/version/littlemo/ubuntu-vps.svg)](https://microbadger.com/images/littlemo/ubuntu-vps)
 [![Docker Automated build](https://img.shields.io/docker/automated/littlemo/ubuntu-vps.svg)](https://hub.docker.com/r/littlemo/ubuntu-vps/)
 
 ### 其他
