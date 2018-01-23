@@ -6,23 +6,15 @@
 
 ### GitHub
 
-[![GitHub followers](https://img.shields.io/github/followers/littlemo.svg?label=github%20follow)](https://github.com/littlemo)
-[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/littlemo/ubuntu-vps.svg)](https://github.com/littlemo/ubuntu-vps)
-[![GitHub stars](https://img.shields.io/github/stars/littlemo/ubuntu-vps.svg?label=github%20stars)](https://github.com/littlemo/ubuntu-vps)
+[![GitHub followers](https://img.shields.io/github/followers/littlemo.svg?label=github%20follow)](https://github.com/littlemo) [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/littlemo/ubuntu-vps.svg)](https://github.com/littlemo/ubuntu-vps) [![GitHub stars](https://img.shields.io/github/stars/littlemo/ubuntu-vps.svg?label=github%20stars)](https://github.com/littlemo/ubuntu-vps)
 
 ### Docker
 
-[![Docker Build Status](https://img.shields.io/docker/build/littlemo/ubuntu-vps.svg)](https://hub.docker.com/r/littlemo/ubuntu-vps/)
-[![Docker Stars](https://img.shields.io/docker/stars/littlemo/ubuntu-vps.svg)](https://hub.docker.com/r/littlemo/ubuntu-vps/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/littlemo/ubuntu-vps.svg)](https://hub.docker.com/r/littlemo/ubuntu-vps/)
-[![](https://images.microbadger.com/badges/image/littlemo/ubuntu-vps.svg)](https://microbadger.com/images/littlemo/ubuntu-vps)
-[![](https://images.microbadger.com/badges/version/littlemo/ubuntu-vps.svg)](https://microbadger.com/images/littlemo/ubuntu-vps)
-[![Docker Automated build](https://img.shields.io/docker/automated/littlemo/ubuntu-vps.svg)](https://hub.docker.com/r/littlemo/ubuntu-vps/)
+[![Docker Build Status](https://img.shields.io/docker/build/littlemo/ubuntu-vps.svg)](https://hub.docker.com/r/littlemo/ubuntu-vps/) [![Docker Stars](https://img.shields.io/docker/stars/littlemo/ubuntu-vps.svg)](https://hub.docker.com/r/littlemo/ubuntu-vps/) [![Docker Pulls](https://img.shields.io/docker/pulls/littlemo/ubuntu-vps.svg)](https://hub.docker.com/r/littlemo/ubuntu-vps/) [![](https://images.microbadger.com/badges/image/littlemo/ubuntu-vps.svg)](https://microbadger.com/images/littlemo/ubuntu-vps) [![](https://images.microbadger.com/badges/version/littlemo/ubuntu-vps.svg)](https://microbadger.com/images/littlemo/ubuntu-vps) [![Docker Automated build](https://img.shields.io/docker/automated/littlemo/ubuntu-vps.svg)](https://hub.docker.com/r/littlemo/ubuntu-vps/)
 
 ### 其他
 
-[![license](https://img.shields.io/github/license/littlemo/ubuntu-vps.svg)](https://github.com/littlemo/ubuntu-vps)
-[![](https://img.shields.io/badge/bitcoin-donate-green.svg)](https://keybase.io/littlemo)
+[![license](https://img.shields.io/github/license/littlemo/ubuntu-vps.svg)](https://github.com/littlemo/ubuntu-vps) [![](https://img.shields.io/badge/bitcoin-donate-green.svg)](https://keybase.io/littlemo)
 
 ## 镜像标签(tags)
 
