@@ -1,12 +1,11 @@
 FROM ubuntu:latest
 
-MAINTAINER Moore Huang <moore@moorehy.com>
-
 # 构建时元数据，定义于 http://label-schema.org
 ARG BUILD_DATE
 ARG VCS_REF
 ARG VERSION
-LABEL org.label-schema.build-date=$BUILD_DATE \
+LABEL maintainer="moore@moorehy.com" \
+      org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.name="Ubuntu-VPS" \
       org.label-schema.description="容器化的虚拟专用服务器" \
       org.label-schema.url="https://hub.docker.com/r/littlemo/ubuntu-vps/" \
