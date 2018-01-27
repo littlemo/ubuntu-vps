@@ -80,10 +80,10 @@ services:
       - "10001:10001"
     volumes:
       # 挂载持久化文档路径
-      - ./mnt/mnt:/mnt:rw
+      - ./volumes/mnt:/mnt:rw
 
       # 挂载用于登录的公钥文件
-      - ./mnt/ssh/authorized_keys:/home/dev/.ssh/authorized_keys:ro
+      - ./volumes/ssh/authorized_keys:/home/dev/.ssh/authorized_keys:ro
 ```
 
 ## 问题
